@@ -19,8 +19,8 @@ const isEqual = require('lodash.isequal');
 
 const Button = React.createClass({
   propTypes: {
-    textStyle: Text.propTypes.style,
-    disabledStyle: Text.propTypes.style,
+    textStyle: PropTypes.string,
+    disabledStyle: PropTypes.string,
     children: PropTypes.oneOfType([
       PropTypes.string,
       PropTypes.node,
@@ -38,7 +38,7 @@ const Button = React.createClass({
     onLongPress: PropTypes.func,
     onPressIn: PropTypes.func,
     onPressOut: PropTypes.func,
-    background: (TouchableNativeFeedback.propTypes) ? TouchableNativeFeedback.propTypes.background : PropTypes.any,
+    background: PropTypes.any
   },
 
   statics: {
