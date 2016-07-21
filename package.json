@@ -1,0 +1,37 @@
+{
+  "name": "apsl-react-native-button",
+  "version": "3.0.0",
+  "description": "React Native button component with rounded corners.",
+  "main": "Button.js",
+  "scripts": {
+    "lint": "eslint Button.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APSL/react-native-button.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "react-component",
+    "react",
+    "button"
+  ],
+  "author": "Alvaro Medina Ballester <me@alvaromb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APSL/react-native-button/issues"
+  },
+  "homepage": "https://github.com/APSL/react-native-button#readme",
+  "dependencies": {
+    "lodash.isequal": "^4.1.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.5",
+    "eslint": "^2.13.1",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-react-native": "^1.1.0-beta"
+  }
+}
