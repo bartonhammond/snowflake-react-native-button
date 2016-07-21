@@ -19,7 +19,7 @@ const isEqual = require('lodash.isequal');
 
 const Button = React.createClass({
   propTypes: {
-    textStyle: PropTypes.string,
+    textStyle: PropTypes.object,
     disabledStyle: PropTypes.string,
     children: PropTypes.oneOfType([
       PropTypes.string,
